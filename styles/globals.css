@@ -183,6 +183,8 @@ body {
 }
 
 .content {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem;
@@ -248,7 +250,7 @@ body {
 
 .popup {
   position: absolute;
-  top: 120px; /* Adjust the value as needed */
+  top: 45px; /* Adjust the value as needed */
   right: 30px;
   border-radius: 8px;
   width: 240px;
